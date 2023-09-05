@@ -7,7 +7,7 @@ from typing import Union
 
 
 __author__ = '139928764+p4irin@users.noreply.github.com'
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 
 
 def generate(

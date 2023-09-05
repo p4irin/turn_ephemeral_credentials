@@ -1,4 +1,4 @@
-# TURN Ephemeral Credentials - v1.0.0
+# TURN Ephemeral Credentials - v1.0.1
 
 Generate time limited, i.e. ephemeral, long term credentials to authenticate against a TURN server. The _default_ duration for the validity of the credentials is set to _one day_ as recommended in [A REST API For Access To TURN Services](https://datatracker.ietf.org/doc/html/draft-uberti-behave-turn-rest-00#section-2.1:~:text=ttl%3A%20the%20duration%20for%20which%20the%20username%20and%20password%20are%20valid%2C%0A%20%20%20%20%20%20in%20seconds.%20%20A%20value%20of%20one%20day%20(86400%20seconds)%20is%20recommended). The same document describes how to generate the _username_ and _password_ [here](https://datatracker.ietf.org/doc/html/draft-uberti-behave-turn-rest-00#section-2.1:~:text=username%3A%20the%20TURN,algorithm%0A%20%20%20%20%20%20and%20secret.).
 
