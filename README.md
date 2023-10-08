@@ -34,11 +34,13 @@ credentials = generate(username='username', shared_secret='A shared secret with 
 
 # Generate a username and use a ttl of half a day
 credentials = generate(shared_secret='A shared secret with a TURN server', ttl=43200)
+
+turn_username=credentials['turn_username']
+turn_password=credentials['turn_password']
 ```
 
 ## Reference
 
 - [A REST API For Access To TURN Services](https://datatracker.ietf.org/doc/html/draft-uberti-behave-turn-rest-00#section-2.1)
-- [coturn](https://github.com/coturn/coturn)
 - [RFC 5766. Traversal Using Relays around NAT (TURN):Relay Extensions to Session Traversal Utilities for NAT (STUN)](https://datatracker.ietf.org/doc/html/rfc5766)
 - [RFC 5389, Session Traversal Utilities for NAT (STUN)](https://datatracker.ietf.org/doc/html/rfc5389#section-10.2)

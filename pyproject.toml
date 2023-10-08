@@ -32,6 +32,10 @@ dev = [
   "twine >= 4.0.2",
   "bumpver >= 2023.1126",
 ]
+test = [
+  "python-dotenv[cli] >= 1.0.0",
+  "aioice >= 0.9.0",
+]
 
 [project.urls]
 "Homepage" = "https://github.com/p4irin/turn_ephemeral_credentials"
